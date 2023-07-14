@@ -24,24 +24,27 @@
         <h1>React js</h1>
         <div class="camisa">
             <img class="camisa__imagen" src="img/3.jpg" alt="imagen camisa">
+            <div class="camisa__contenido">
+                <p>Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Eos quasi sit iure ipsa
+                     nisi laboriosam, maxime officia qui cumque</p>
+            
+            
+                <form action="" class="formulario">
+                    <select class="formulario__campo" name="" id="">
+                        <option class="formulario__campo-opciones" value="" disabled selected>-- Talla--</option>
+                        <option class="formulario__campo-opciones" value="">Chica</option>
+                        <option class="formulario__campo-opciones" value="">Mediana</option>
+                        <option class="formulario__campo-opciones" value="">Grande</option>
+                    </select>
+                    <input class="formulario__campo " type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            
+            </div>
+
         </div>
-        <div class="camisa__contenido">
-            <p>Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Eos quasi sit iure ipsa
-                 nisi laboriosam, maxime officia qui cumque</p>
-        </div>
-        <div class="formulario">
-            <form action="">
-                <select name="" id="">
-                    <option value="" disabled selected>--Seleccionar Talla--</option>
-                    <option value="">chica</option>
-                    <option value="">mediana</option>
-                    <option value="">grande</option>
-                </select>
-                <input type="number" placeholder="Cantidad" min="1">
-                <input type="submit" value="Agregar al Carrito">
-            </form>
-        </div>
+
     </main>
     <footer class="footer">
         <p class="footer__texto">Front-End Store -Todos los derechos Reservados 2023</p>
