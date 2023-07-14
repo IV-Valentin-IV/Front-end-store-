@@ -1,0 +1,17 @@
+/*BEM
+es una metedologia para crear codigo reutilizale y ordenado en tus
+proyectos en css
+
+*tienes que seguir las convenciones de BEM
+
+*reglas de BEM
+    -Bloques: si una seccion por si sola es significativa y no
+    requiere de otas secciones para su aparencia debera
+    ir en un bloque
+    *los elementos son parte del bloque
+    ejemplo "cliente__nombre"
+*modificadores
+    se utiliza un modificador que es una "bandera que 
+    avisa que ese elemento tendra un diseño diferente
+    ejemplo:"cliente__nombre--ceo"
+*/
